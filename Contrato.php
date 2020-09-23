@@ -2,14 +2,6 @@
 
 abstract class Contrato implements Registro
 {
-    // ◦ Número de Registro do Contrato;
-    // ◦ Nome das partes envolvidas;
-    // ◦ Nomes das Testemunhas (pelo menos duas);
-    // ◦ Objeto do contrato (Compra e Venda, Trabalho, etc);
-    // ◦ Data de emissão do contrato;
-    // ◦ Data de registro do contrato;
-    // ◦ Nome do Tabelião responsável pela autenticação do documento;
-    // ◦ Nome do Cartório onde o documento foi lavrado.
     protected $numeroRegistro;
     protected $nomePartes;
     protected $nomeTestemunhas;
